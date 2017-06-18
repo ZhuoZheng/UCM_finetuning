@@ -7,7 +7,7 @@ In this script you may modify variables
 ```DATASET``` where datasets are stored and 
 ```TF_RECORD_SET``` where tfrecord files generated are stored.
 
-#Download Pre-trained Models
+##Download Pre-trained Models
 In this case, you should download the VGG-16 and ResNet-v2 model.
 <a id='Pretrained'></a>
 
