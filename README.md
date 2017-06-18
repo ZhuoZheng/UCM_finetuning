@@ -1,5 +1,4 @@
-
-## Downloading and converting to TFRecord format
+# Downloading and converting to TFRecord format
 First ,you will download the [UC Merced Land Use Dataset](http://vision.ucmerced.edu/datasets/landuse.html) .This is a 21 classes land use image dataset,each class of which contains 100 images.
 We use TF-Slim to train VGG-16 and ResNet-v2 model,so we should convert dataset to [TFRecord](https://www.tensorflow.org/versions/r0.10/api_docs/python/python_io.html#tfrecords-format-details) that flows in the tensorflow.
 You can use the script ```datasets/convert_ucm_to_tfrecord.py ``` to do that.
@@ -7,7 +6,7 @@ In this script you may modify variables
 ```DATASET``` where datasets are stored and 
 ```TF_RECORD_SET``` where tfrecord files generated are stored.
 
-##Download Pre-trained Models
+# Download Pre-trained Models
 In this case, you should download the VGG-16 and ResNet-v2 model.
 <a id='Pretrained'></a>
 
